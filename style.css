@@ -39,7 +39,7 @@ h1 {
   font-weight: bold;  
   margin: 0 auto 60px;
   padding: 1em 2em; 
-  Style: "number";
+ <!-- style: "number";-->
   text-align: center; 
 }
 
