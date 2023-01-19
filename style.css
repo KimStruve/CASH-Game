@@ -1,10 +1,10 @@
 /* Body styling */
 body {
-  background: #royalblue;
+  background: #indianred;
   color: #fff;
-  font-family: Consolas, Courier;
-  font-size: 28px;
-  font-weight: 200;
+  font-family: Helvetica, Arial;
+  font-size: 27px;
+  font-weight: 300;
   line-height: 1.65em;
   margin: 0 auto;
   max-width: 960px;
@@ -15,7 +15,7 @@ body {
 /* Heading Styles */
 h1 {
   font-size: 144px;
-  color: #mediumpurple;
+  color: #fff;
   text-align: center;
 }
 
@@ -39,7 +39,6 @@ h1 {
   font-weight: bold;  
   margin: 0 auto 60px;
   padding: 1em 2em; 
-
   text-align: center; 
 }
 
@@ -66,18 +65,17 @@ h1 {
 .choice-bucket input {
   border: 0;
   border-radius: 6px;
-  color: #seagreen;
-  font-size: 60px;
+  color: #royalblue;
+  font-size: 18px;
   margin: 15px 4%;
   outline: 0;
   padding: 16px 0;
   text-indent: 20px;
   width: 92%;  
-}   
-<!--mask-type: number;did not work in this choice-bucket input area-->
+}
 
 .choice-bucket label ~ input {
-  margin-top: 0; 
+  margin-top: 0;
 }
 
 .highlight {
