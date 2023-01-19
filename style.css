@@ -38,7 +38,7 @@ h1 {
   font-size: 20px;
   font-weight: bold;  
   margin: 0 auto 60px;
-  mask-type: "number";
+  mask-type: number;
   padding: 1em 2em; 
 
   text-align: center; 
