@@ -71,6 +71,7 @@ h1 {
   margin: 15px 4%;
   outline: 0;
   padding: 16px 0;
+  style: number;
   text-indent: 20px;
   width: 92%;  
 }
