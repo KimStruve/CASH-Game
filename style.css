@@ -1,10 +1,10 @@
 /* Body styling */
 body {
-  background: #713e94;
+  background: #FFFFFF;
   color: #fff;
-  font-family: Helvetica, Arial;
-  font-size: 27px;
-  font-weight: 300;
+  font-family: Consolas, Courier;
+  font-size: 28px;
+  font-weight: 200;
   line-height: 1.65em;
   margin: 0 auto;
   max-width: 960px;
