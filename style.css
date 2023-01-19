@@ -38,8 +38,9 @@ h1 {
   font-size: 20px;
   font-weight: bold;  
   margin: 0 auto 60px;
+  mask-type: "number";
   padding: 1em 2em; 
- <!-- mask-type: "number";-->
+
   text-align: center; 
 }
 
@@ -71,10 +72,10 @@ h1 {
   margin: 15px 4%;
   outline: 0;
   padding: 16px 0;
-  mask-type: number;
   text-indent: 20px;
   width: 92%;  
-}
+}   
+<!--mask-type: number;did not work in this choice-bucket input area-->
 
 .choice-bucket label ~ input {
   margin-top: 0; 
