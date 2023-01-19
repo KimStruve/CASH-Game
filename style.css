@@ -1,0 +1,118 @@
+/* Body styling */
+body {
+  background: #713e94;
+  color: #fff;
+  font-family: Helvetica, Arial;
+  font-size: 27px;
+  font-weight: 300;
+  line-height: 1.65em;
+  margin: 0 auto;
+  max-width: 960px;
+  padding: 40px 10px;  
+}
+
+
+/* Heading Styles */
+h1 {
+  font-size: 60px;
+  color: #fff;
+  text-align: center;
+}
+
+
+/* Game Directions */
+.description {
+  text-align: center;
+  margin: 80px auto 40px;
+}
+
+
+/* Submit Button, Columns, Questions, and Inputs */
+.button-submit {
+  background: transparent;
+  border: 3px solid #fff;
+  border-radius: 6px;
+  color: #fff;
+  cursor: pointer; 
+  display: block;
+  font-size: 20px;
+  font-weight: bold;  
+  margin: 0 auto 60px;
+  padding: 1em 2em; 
+  text-align: center; 
+}
+
+.bucket {
+  display: inline-block;
+  margin-bottom: 40px;
+  width: 100%;
+}
+
+.choice-bucket {
+  display: inline-block;
+  float: left;
+  margin: 0;
+  padding: 0;
+  width: 33.333333%;
+}
+
+.choice-bucket label {
+  font-size: 12px;
+  line-height: 13px;
+  margin: 15px 4%;
+}
+
+.choice-bucket input {
+  border: 0;
+  border-radius: 6px;
+  color: #713e94;
+  font-size: 18px;
+  margin: 15px 4%;
+  outline: 0;
+  padding: 16px 0;
+  text-indent: 20px;
+  width: 92%;  
+}
+
+.choice-bucket label ~ input {
+  margin-top: 0;
+}
+
+.highlight {
+  font-size: 18px;
+  line-height: 24px;
+  margin-left: 30px;
+  opacity: .8;
+}
+
+
+
+/* Answer Div */
+#answers {
+  margin: 60px 0;
+  background: #fff;
+  border-radius: 6px;
+  color: #713e94;
+  transition: 1s linear;
+}
+
+#answers p {
+  max-width: 760px;
+  margin: auto;
+  padding: 20px 0;
+}
+
+#answers p span {
+  font-weight: bold;
+}
+
+
+.hide {
+  opacity: 0;
+  height: 0;
+}
+
+.show {
+  opacity: 1;
+  height: 100%;
+}
