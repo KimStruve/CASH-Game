@@ -36,9 +36,9 @@ h2 {
 /* Submit Button, Columns, Questions, and Inputs */
 .button-submit {
   background: transparent;
-  border: 3px solid #darkblue;
+  border: 3px solid darkblue;
   border-radius: 6px;
-  color: #fff;
+  color: darkblue;
   cursor: pointer; 
   display: block;
   font-size: 20px;
