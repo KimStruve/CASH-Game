@@ -18,6 +18,11 @@ h1 {
   color: darkmagenta;
   text-align: center;
 }
+h2 {
+  font-size: 72px;
+  color: darkblue;
+  text-align: center;
+}
 
 
 /* Game Directions */
