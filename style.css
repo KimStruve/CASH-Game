@@ -14,12 +14,13 @@ body {
 
 /* Heading Styles */
 h1 {
-  font-size: 144px;
+  font-size: 96px;
   color: darkmagenta;
   text-align: center;
 }
+
 h2 {
-  font-size: 60px;
+  font-size: 48px;
   color: darkblue;
   text-align: center;
 }
